@@ -2,21 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/web/jsp/vistas_privadas/panel_control.jsp</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/web/jsp/vistas_publicas/index.jsp</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/src/java/dao/UsuarioDAO.java</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/web/jsp/vistas_publicas/registro_fallido.jsp</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/web/jsp/vistas_publicas/cerrar_sesion.jsp</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/web/jsp/vistas_publicas/session_fallida.jsp</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/src/java/controladores/IniciarSesionServlet.java</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/web/jsp/vistas_publicas/registro_exitoso.jsp</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/src/java/modelos/Usuario.java</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/web/jsp/vistas_publicas/registrarse.jsp</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/web/css/styles.css</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/src/java/controladores/RegistrarUsuarioServlet.java</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/src/java/util/Conexion.java</file>
-            <file>file:/C:/Users/USUARIO/Desktop/pagina/Agrosell/web/jsp/vistas_publicas/inicio.jsp</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

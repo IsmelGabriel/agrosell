@@ -35,7 +35,7 @@
                         <a href="jsp/vistas_privadas/panel_control.jsp" class="menu-icon"><i class="fa fa-cog"></i></a>
                     </button>
                 </div>
-                <a href="carrito.jsp" class="menu-icon">
+                <a href="/jsp/vistas_publicas/carrito.jsp" class="menu-icon">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
                 <span class="notification">

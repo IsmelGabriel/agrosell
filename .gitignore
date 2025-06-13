@@ -1,0 +1,16 @@
+# NetBeans
+nbproject/private/
+build/
+dist/
+*.log
+
+# Java
+*.class
+*.jar
+
+# Librerías descargadas
+lib/
+
+# Sistema
+.DS_Store
+Thumbs.db

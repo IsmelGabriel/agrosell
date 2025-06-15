@@ -5,7 +5,7 @@ Desarrollar un sistema de información para los campesinos, que permita gestiona
 
 ## ⚙️ Tecnologías usadas
 
-- HTML, CSS, JavaScript
+- HTML, CSS, PHP
 - Java (JDK 21)
 - JSP y Servlets
 - JDBC

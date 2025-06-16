@@ -12,7 +12,11 @@ Agrosell/nbproject/project.xml
 Agrosell/nbproject/*
 
 # Ignorar carpetas de salida de compilación
-Agrosell/build/*
+
+Agrosell/build/META-INF/
+Agrosell/build/empty
+Agrosell/build/generated-sources
+Agrosell/build/web/WEB-INF/lib/
 Agrosell/dist/*
 
 # Ignorar librerías descargadas localmente

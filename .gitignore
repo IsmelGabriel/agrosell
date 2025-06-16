@@ -1,26 +1,24 @@
 # Ignorar configuración específica de usuario de NetBeans
-nbproject/private/
-nbproject/private*
+Agrosell/nbproject/private/
+Agrosell/nbproject/private*
 
 # Ignorar archivos y carpetas generadas automáticamente por NetBeans
-nbproject/build-impl.xml
-nbproject/genfiles.properties
-nbproject/project.properties
-nbproject/project.xml
+Agrosell/nbproject/build-impl.xml
+Agrosell/nbproject/genfiles.properties
+Agrosell/nbproject/project.properties
+Agrosell/nbproject/project.xml
 
 # Ignorar la carpeta completa de NetBeans (opcional si no desean compartir ninguna config del IDE)
-# nbproject/
+Agrosell/nbproject/
 
 # Ignorar carpetas de salida de compilación
-build/
-dist/
+Agrosell/build/
+Agrosell/dist/
 
 # Ignorar librerías descargadas localmente
-lib/
+Agrosell/lib/
 
 # Ignorar archivos compilados
-*.class
-*.jar
 
 # Archivos innecesarios del sistema operativo
 .DS_Store

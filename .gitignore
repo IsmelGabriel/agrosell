@@ -12,6 +12,7 @@ Agrosell/nbproject/project.xml
 Agrosell/nbproject/*
 
 # Ignorar carpetas de salida de compilación
+
 Agrosell/build/*
 Agrosell/dist/*
 

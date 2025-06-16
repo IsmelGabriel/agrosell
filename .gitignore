@@ -1,5 +1,5 @@
 # Ignorar configuración específica de usuario de NetBeans
-Agrosell/nbproject/private/
+Agrosell/nbproject/private/*
 Agrosell/nbproject/private*
 
 # Ignorar archivos y carpetas generadas automáticamente por NetBeans

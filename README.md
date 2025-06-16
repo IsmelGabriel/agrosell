@@ -9,6 +9,7 @@ Desarrollar un sistema de información para los campesinos, que permita gestiona
 - Java (JDK 21)
 - JSP y Servlets
 - JDBC
+- Jbcrypt
 - MySQL
 - NetBeans 23
 - Apache Tomcat 9.0+

@@ -1,5 +1,6 @@
 # Ignorar configuraciones personales de NetBeans
-nbproject/private/
+nbproject/
+nbproject/private
 
 # Ignorar carpetas de salida de compilación
 build/

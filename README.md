@@ -65,3 +65,16 @@ git clone https://github.com/usuario/repositorio.git
 ## Notas
 - Asegúrate de que el puerto 8080 esté libre o cambia la configuración del servidor en NetBeans.
 - Realiza un git pull regularmente para mantener tu proyecto actualizado.
+- ignorar archivos de configuración locales y temporales:
+  - `nbproject/private/`
+  - `nbproject/`
+  - `build/`
+  - `dist/`
+  - `lib`
+  - `*.class`
+  - `*.log`
+
+  en el bash de git realizar:
+  - ```bash
+  git update-index --assume-unchanged build/web*
+  git update-index --assume-unchanged nbproject/*

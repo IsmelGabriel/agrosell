@@ -76,5 +76,5 @@ git clone https://github.com/usuario/repositorio.git
 
   en el bash de git realizar:
   - ```bash
-  git update-index --assume-unchanged Agrosell/build/web*
+  git update-index --assume-unchanged Agrosell/build/web/*
   git update-index --assume-unchanged Agrosell/nbproject/*

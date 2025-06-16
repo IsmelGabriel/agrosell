@@ -1,5 +1,5 @@
 # Ignorar configuración específica de usuario de NetBeans
-Agrosell/nbproject/private/
+Agrosell/nbproject/private/*
 Agrosell/nbproject/private*
 
 # Ignorar archivos y carpetas generadas automáticamente por NetBeans
@@ -9,14 +9,14 @@ Agrosell/nbproject/project.properties
 Agrosell/nbproject/project.xml
 
 # Ignorar la carpeta completa de NetBeans (opcional si no desean compartir ninguna config del IDE)
-Agrosell/nbproject/
+Agrosell/nbproject/*
 
 # Ignorar carpetas de salida de compilación
-Agrosell/build/
-Agrosell/dist/
+Agrosell/build/*
+Agrosell/dist/*
 
 # Ignorar librerías descargadas localmente
-Agrosell/lib/
+Agrosell/lib/*
 
 # Ignorar archivos compilados
 

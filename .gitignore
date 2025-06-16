@@ -1,15 +1,24 @@
-# Ignorar configuraciones personales de NetBeans
-nbproject/
-nbproject/private
+# Ignorar configuración específica de usuario de NetBeans
+nbproject/private/
+nbproject/private*
+
+# Ignorar archivos y carpetas generadas automáticamente por NetBeans
+nbproject/build-impl.xml
+nbproject/genfiles.properties
+nbproject/project.properties
+nbproject/project.xml
+
+# Ignorar la carpeta completa de NetBeans (opcional si no desean compartir ninguna config del IDE)
+# nbproject/
 
 # Ignorar carpetas de salida de compilación
 build/
 dist/
 
-# Ignorar librerías locales
+# Ignorar librerías descargadas localmente
 lib/
 
-# Ignorar archivos de clase y JAR compilados
+# Ignorar archivos compilados
 *.class
 *.jar
 

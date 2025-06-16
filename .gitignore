@@ -1,0 +1,17 @@
+# Ignorar configuraciones personales de NetBeans
+nbproject/private/
+
+# Ignorar carpetas de salida de compilación
+build/
+dist/
+
+# Ignorar librerías locales
+lib/
+
+# Ignorar archivos de clase y JAR compilados
+*.class
+*.jar
+
+# Archivos innecesarios del sistema operativo
+.DS_Store
+Thumbs.db

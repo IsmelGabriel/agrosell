@@ -40,7 +40,7 @@
 
     <nav class="menu-bar">
         <ul>
-            <li>Bienvenido a Agrosell Nova. Actualmente estás en la página de inicio de sesión.</li>
+            <li>Bienvenido a Agrosell Nova. Actualmente te encuentras en la página de inicio de sesión.</li>
         </ul>
     </nav>
 

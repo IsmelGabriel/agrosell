@@ -77,9 +77,6 @@ git clone https://github.com/usuario/repositorio.git
   - ```bash
   git update-index --assume-unchanged Agrosell/build/*
   git update-index --assume-unchanged Agrosell/nbproject/*
-<<<<<<< HEAD
     git rm --cached -r Agrosell/nbproject Agrosell/build Agrosell/lib
     git commit -m "Dejar de rastrear archivos generados/locales"
     git push
-=======
->>>>>>> 54f8e152e2330a16728c81e42f890b9d8c0df80c

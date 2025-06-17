@@ -2,7 +2,6 @@
 
 Desarrollar un sistema de información para los campesinos, que permita gestionar la comercialización de productos directamente a los mercados, con una mayor ganancia y mejores beneficios.
 
-
 ## ⚙️ Tecnologías usadas
 
 - HTML, CSS, PHP
@@ -47,7 +46,6 @@ git clone https://github.com/usuario/repositorio.git
   - JSTL 1.2.7 (JavaServer Pages Standard Tag Library)
   - click derecho en la capreta libraries del proyecto y seleccionar "add library" y busca JSTL 1.2.7. luego "add library".
   
-
 ### 3. Configurar la base de datos
 - Asegúrate de tener MySQL instalado y en ejecución.
 - Importa el archivo `agrosell.sql` en tu base de datos MySQL.
@@ -78,3 +76,6 @@ git clone https://github.com/usuario/repositorio.git
   - ```bash
   git update-index --assume-unchanged Agrosell/build/*
   git update-index --assume-unchanged Agrosell/nbproject/*
+    git rm --cached -r Agrosell/nbproject Agrosell/build Agrosell/lib
+    git commit -m "Dejar de rastrear archivos generados/locales"
+    git push

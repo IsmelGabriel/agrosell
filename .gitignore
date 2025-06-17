@@ -3,6 +3,7 @@ Agrosell/nbproject/private/*
 Agrosell/nbproject/private*
 
 # Ignorar archivos y carpetas generadas automáticamente por NetBeans
+Agrosell/nbproject/private/private.properties
 Agrosell/nbproject/build-impl.xml
 Agrosell/nbproject/genfiles.properties
 Agrosell/nbproject/project.properties

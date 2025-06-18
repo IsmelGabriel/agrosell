@@ -1,18 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package modelos;
 
 public class Usuario {
+
     private int id;
     private String nombre;
     private String usuario;
     private String correo;
     private String contraseña;
     private String rol;
+    private String direccion;
+    private String documento;
+    private String metodoPago;
+    private String fechaNacimiento;
 
-    // getters y setters
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int Id) {
+        this.id = Id;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -51,5 +59,37 @@ public class Usuario {
 
     public void setRol(String rol) {
         this.rol = rol;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public String getDocumento() {
+        return documento;
+    }
+
+    public void setDocumento(String documento) {
+        this.documento = documento;
+    }
+
+    public String getMetodoPago() {
+        return metodoPago;
+    }
+
+    public void setMetodoPago(String metodoPago) {
+        this.metodoPago = metodoPago;
+    }
+
+    public String getFechaNacimiento() {
+        return fechaNacimiento;
+    }
+
+    public void setFechaNacimiento(String fechaNacimiento) {
+        this.fechaNacimiento = fechaNacimiento;
     }
 }

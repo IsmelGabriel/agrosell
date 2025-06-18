@@ -34,7 +34,7 @@
             </span>
             <span class="username">
                 <% if (usuario != null) { %>
-                    <a href="../php/cerrarSesion.jsp"><%= usuario %></a>
+                    <a href="cerrar_sesion.jsp"><%= usuario %></a>
                 <% } else { %>
                     <a href="index.jsp">Iniciar sesión / Registrarse</a>
                 <% } %>

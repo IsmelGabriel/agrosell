@@ -92,7 +92,7 @@
                     <ul>
                         <li><a href="inicio.jsp">Inicio</a></li>
                         <li><a href="categorias.jsp">Categorías</a></li>
-                        <li><a href="contacto.jsp">Contáctanos</a></li>
+                        <li><a href="contactanos.jsp">Contáctanos</a></li>
                         <li><a href="about_us.jsp">Sobre nosotros</a></li>
                         <li><a href="mapa.jsp">Mapa del sitio</a></li>
                         <li><a href="404.jsp">Error 404</a></li>

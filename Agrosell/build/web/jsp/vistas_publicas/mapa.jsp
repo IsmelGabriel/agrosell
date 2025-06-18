@@ -33,13 +33,13 @@
                 <a href="${pageContext.request.contextPath}/MostrarProductoServlet" class="mapa-enlace"><i class="fas fa-box mapa-icono"></i>Productos</a>
                 <ul class="mapa-sublista">
                     <li class="mapa-subitem">
-                        <a href="productos.jsp#categoria-frutas" class="mapa-enlace"><i class="fas fa-apple-alt mapa-icono"></i>Frutas</a>
+                        <a href="${pageContext.request.contextPath}/MostrarProductoServlet?producto=categoria_frutas" class="mapa-enlace"><i class="fas fa-apple-alt mapa-icono"></i>Frutas</a>
                     </li>
                     <li class="mapa-subitem">
-                        <a href="productos.jsp#categoria-verduras" class="mapa-enlace"><i class="fas fa-carrot mapa-icono"></i>Verduras</a>
+                        <a href="${pageContext.request.contextPath}/MostrarProductoServlet?producto=categoria_verduras" class="mapa-enlace"><i class="fas fa-carrot mapa-icono"></i>Verduras</a>
                     </li>
                     <li class="mapa-subitem">
-                        <a href="productos.jsp#categoria-granos" class="mapa-enlace"><i class="fas fa-seedling mapa-icono"></i>Granos</a>
+                        <a href="${pageContext.request.contextPath}/MostrarProductoServlet?producto=categoria_granos" class="mapa-enlace"><i class="fas fa-seedling mapa-icono"></i>Granos</a>
                     </li>
                 </ul>
             </li>

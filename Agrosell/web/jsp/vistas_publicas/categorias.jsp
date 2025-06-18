@@ -71,25 +71,25 @@
                 <img src="../../img/productos/imgfrutas.jpg" alt="Frutas">
                 <h3>Frutas</h3>
                 <p>Explora nuestras frutas frescas y orgánicas.</p>
-                <a href="productos.jsp" class="btn-categoria">Ver más</a>
+                <a href="${pageContext.request.contextPath}/MostrarProductoServlet?producto=frutas" class="btn-categoria">Ver más</a>
             </div>
             <div class="categoria-item">
                 <img src="../../img/Verduras.jpg" alt="Verduras">
                 <h3>Verduras</h3>
                 <p>Descubre las mejores verduras recién cosechadas.</p>
-                <a href="productos.jsp" class="btn-categoria">Ver más</a>
+                <a href="${pageContext.request.contextPath}/MostrarProductoServlet?producto=verduras" class="btn-categoria">Ver más</a>
             </div>
             <div class="categoria-item">
                 <img src="../../img/granos.jpg" alt="Granos">
                 <h3>Granos</h3>
                 <p>Gran variedad de granos para tus necesidades.</p>
-                <a href="productos.jsp" class="btn-categoria">Ver más</a>
+                <a href="${pageContext.request.contextPath}/MostrarProductoServlet?producto=granos" class="btn-categoria">Ver más</a>
             </div>
             <div class="categoria-item">
                 <img src="../../img/lacteos.jpg" alt="Lácteos">
                 <h3>Lácteos</h3>
                 <p>Lácteos frescos y de calidad para tu hogar.</p>
-                <a href="productos.jsp" class="btn-categoria">Ver más</a>
+                <a href="${pageContext.request.contextPath}/MostrarProductoServlet?producto=lacteos" class="btn-categoria">Ver más</a>
             </div>
         </section>
     </main>
@@ -101,7 +101,7 @@
                 <ul>
                     <li><a href="inicio.jsp">Inicio</a></li>
                     <li><a href="categorias.jsp">Categorías</a></li>
-                    <li><a href="contacto.jsp">Contáctanos</a></li>
+                    <li><a href="contactanos.jsp">Contáctanos</a></li>
                     <li><a href="about_us.jsp">Sobre nosotros</a></li>
                     <li><a href="mapa.jsp">Mapa del sitio</a></li>
                     <li><a href="404.jsp">Error 404</a></li>

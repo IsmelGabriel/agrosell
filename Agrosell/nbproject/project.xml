@@ -19,7 +19,11 @@
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
+<<<<<<< HEAD
                     <file>${file.reference.mysql-connector-j-9.3.0.jar-1}</file>
+=======
+                    <file>${file.reference.mysql-connector-j-9.3.0.jar}</file>
+>>>>>>> 8d6f80eadc6e311d457ab47b0ed0123ed23f6c80
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
             </web-module-libraries>

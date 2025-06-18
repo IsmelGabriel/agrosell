@@ -4,7 +4,12 @@
     Author     : USUARIO
 --%>
 
-<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page session="true" %>
+<%
+    String usuario = (String) session.getAttribute("usuario");
+    String rol = (String) session.getAttribute("rol");
+%>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -30,7 +35,13 @@
             <span class="notification">
                 <button id="notificationButton"><i class="fas fa-bell"></i></button>
             </span>
-            <span><a href="index.jsp" class="username" id="usuario">Iniciar sesión</a></span>
+                        <span class="username">
+                <% if (usuario != null) { %>
+                    <a href="cerrar_sesion.jsp"><%= usuario %></a>
+                <% } else { %>
+                    <a href="index.jsp">Iniciar sesión</a>
+                <% } %>
+            </span>
         </div>
     </header>
 

@@ -1,29 +1,23 @@
-<%-- 
-    Document   : inicio
-    Created on : 12/06/2025, 9:56:26 a. m.
-    Author     : USUARIO
---%>
-
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page session="true" %>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <%
     String usuario = (String) session.getAttribute("usuario");
     String rol = (String) session.getAttribute("rol");
 %>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrosell nova</title>
+    <title>Reservas</title>
     <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <script src="../../js/mostrarNombre.js"></script>
 </head>
 <body>
     <header class="top-bar">
         <div class="header-content">
-            <img src="../../img/logo.png" alt="Agrosell Nova" class="logo">
+            <img src="https://i.ibb.co/cvj3qCk/agrosell-logo-removebg-preview-1.png" alt="Agrosell Nova" class="logo">
             <h1 class="menu-title">AGROSELL NOVA</h1>
             <div class="panel-option">
                 <button id="panelControl">
@@ -35,23 +29,22 @@
             </a>
             <span class="notification">
                 <button id="notificationButton">
-                    <i class="fas fa-bell" class="menu-icon"></i>
+                    <i class="fas fa-bell"></i>
                 </button>
             </span>
             <span class="username">
                 <% if (usuario != null) { %>
-                    <a href="cerrar_sesion.jsp"><%= usuario %></a>
+                    <a href="../php/cerrarSesion.jsp"><%= usuario %></a>
                 <% } else { %>
                     <a href="index.jsp">Iniciar sesión / Registrarse</a>
                 <% } %>
             </span>
-            <a href="panel/perfil.php" class="menu-icon">
+            <a href="../vistas_privadas/perfil.jsp" class="menu-icon">
                 <i class="bi bi-person-circle" style="font-size: 30px;"></i>
             </a>
         </div>
     </header>
 
-    <!-- Segunda barra -->
     <nav class="menu-bar">
         <ul>
             <li><a href="inicio.jsp"><i class="fas fa-home"></i> Inicio</a></li>
@@ -65,68 +58,61 @@
     </nav>
 
     <main>
-        <section class="presentacion-inicio">
-            <div class="presentacion-cuadro-inicio"><i class="fas fa-leaf"></i>
-                <p><a href="about_us.jsp"> ¡Conoce mas sobre nosotros! </a> </p>
-            </div>
-            <div class="presentacion-cuadro-inicio"><i class="fas fa-user-plus"></i>
-                <p><a href="registrarse.jsp">¡Bienvenido, registrate aquí! </a> </p>
-            </div>
-            <div class="presentacion-cuadro-inicio"><i class="fas fa-phone-alt"></i>
-                <p> <a href="contactanos.jsp"> ¡Contactate con nosotros para ser parte de nuestra familia! </a> </p> 
-            </div>
+        <section class="titulo-reservas">
+            <h1>Reserva tus productos próximos a salir</h1>
         </section>
-    
-        <section class="presentacion-titulo-inicio">
-            <h1>¡BIENVENIDO!</h1>
-        </section>
-        
-        <section id="inicio" class="main-inicio">
-            <section class="destacados-inicio">
-                <div class="destacados-inicio-titulo">
-                    <h2>Productos más destacados</h2>
-                </div>
-                <div class="productos-destacados-inicio">
-                    <div class="productos-destacados">
-                        <img src="../../img/tomates.jpg" alt="IMAGEN NO ENCONTRADA" class="producto-imagen">
-                        <h3>Tomates</h3>
-                        <p>Tomates frescos</p>
-                        <a href="productos.php" class="btn-productos-inicio">Ver más</a>
-                    </div>
-                    <div class="productos-destacados">
-                        <img src="../../img/zanahoria.jpg" alt="IMAGEN NO ENCONTRADA" class="producto-imagen">
-                        <h3>Zanahoria</h3>
-                        <p>Zanahorias frescas</p>
-                        <a href="productos.php" class="btn-productos-inicio">Ver más</a>
-                    </div>
-                </div>
-            </section>
-            
-            <div class="practicas-seccion">
-                    <!-- Texto en la izquierda -->
-                    <div class="practicas-info">
-                        <h2 class="practicas-titulo">Buenas Prácticas</h2>
-                        <p class="practicas-info">
-                            Aplicar buenas prácticas en los procesos agrícolas garantiza la sostenibilidad,
-                            calidad de los productos y respeto por el medio ambiente. Estas prácticas incluyen 
-                            el uso adecuado de recursos, manejo responsable de residuos y mejora continua en 
-                            los procesos de producción.
-                        </p>
-                        <p>
-                            Asegúrate de implementar métodos seguros y sostenibles en tus cultivos, contribuyendo 
-                            así al bienestar de todos.
-                        </p>
-                    </div>
-                    <!-- Imagen en la derecha -->
-                    <div class="practicas-img">
-                        <img src="../../img/inicio_buenas_practicas.jpg" alt="IMAGEN NO ENCONTRADA" class="img-practicas">
-                    </div>
+
+        <section id="reservas" class="reserva-info-section">
+            <div class="producto-reserva">
+                <img src="https://static.compreloadomicilio.com/grupomonterosas/products/02427/638e7be1852e9759181748.webp" alt="Cebolla" class="producto-imagen-reserva">
+                <h3>Cebolla</h3>
+                <p>Precio: 15.000</p>
+                <p>Disponible desde: 01/12/2024</p>
+                <a href="../formulario/formulario_reserva.jsp" class="btn-reserva">Reservar</a>
+            </div>
+
+            <div class="producto-reserva">
+                <img src="https://solofruver.com/wp-content/uploads/2022/10/tomate-daniela.webp" alt="Tomate" class="producto-imagen-reserva">
+                <h3>Tomate</h3>
+                <p>Precio: 12.000</p>
+                <p>Disponible desde: 05/12/2024</p>
+                <a href="../formulario/formulario_reserva.jsp" class="btn-reserva">Reservar</a>
+            </div>
+
+            <div class="producto-reserva">
+                <img src="https://static.libertyprim.com/files/familles/carotte-large.jpg?1569271734" alt="Zanahoria" class="producto-imagen-reserva">
+                <h3>Zanahoria</h3>
+                <p>Precio: 18.500</p>
+                <p>Disponible desde: 08/12/2024</p>
+                <a href="../formulario/formulario_reserva.jsp" class="btn-reserva">Reservar</a>
+            </div>
+
+            <div class="producto-reserva">
+                <img src="https://static.libertyprim.com/files/familles/fraise-large.jpg?1569271765" alt="Fresa" class="producto-imagen-reserva">
+                <h3>Fresa</h3>
+                <p>Precio: 10.000</p>
+                <p>Disponible desde: 10/12/2024</p>
+                <a href="../formulario/formulario_reserva.jsp" class="btn-reserva">Reservar</a>
+            </div>
+
+            <div class="producto-reserva">
+                <img src="https://static.libertyprim.com/files/familles/mangue-large.jpg?1569271798" alt="Mango" class="producto-imagen-reserva">
+                <h3>Mango</h3>
+                <p>Precio: 25.000</p>
+                <p>Disponible desde: 15/12/2024</p>
+                <a href="../formulario/formulario_reserva.jsp" class="btn-reserva">Reservar</a>
+            </div>
+
+            <div class="producto-reserva">
+                <img src="https://www.supermercadosantamaria.com/documents/10180/10504/31400_G.jpg" alt="Manzana" class="producto-imagen-reserva">
+                <h3>Manzana</h3>
+                <p>Precio: 20.000</p>
+                <p>Disponible desde: 20/12/2024</p>
+                <a href="../formulario/formulario_reserva.jsp" class="btn-reserva">Reservar</a>
             </div>
         </section>
     </main>
-
-
-
+    
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-column">
@@ -142,14 +128,14 @@
                     <li><a href="dashboard.jsp">Dashboard</a></li>
                 </ul>
             </div>
-    
+
             <div class="footer-column">
                 <h3>Contacto</h3>
                 <p>📍 Dirección: Calle Principal #123</p>
                 <p>📞 Teléfono: +57 123 456 789</p>
                 <p>📧 Email: <a href="mailto:info@agrosellnova.com">info@agrosellnova.com</a></p>
             </div>
-    
+
             <div class="footer-column">
                 <h3>Síguenos</h3>
                 <div class="social-icons">
@@ -166,11 +152,10 @@
     </footer>
 
     <script>
-
         document.getElementById('notificationButton').addEventListener('click', function() {
             alert("No tienes notificaciones pendientes");
         });
-    
+
         function debounce(func, wait) {
             let timeout;
             return function(...args) {
@@ -182,7 +167,7 @@
                 timeout = setTimeout(later, wait);
             };
         }
-    
+
         window.addEventListener("scroll", debounce(function () {
             const menuBar = document.querySelector(".menu-bar");
             if (window.scrollY > 50) {
@@ -191,8 +176,6 @@
                 menuBar.classList.remove("scrolled");
             }
         }, 100));
-        </script>
-
-
+    </script>
 </body>
 </html>

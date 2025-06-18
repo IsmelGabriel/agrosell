@@ -55,7 +55,7 @@
     <nav class="menu-bar">
         <ul>
             <li><a href="inicio.jsp"><i class="fas fa-home"></i> Inicio</a></li>
-            <li><a href="productos.jsp"><i class="fas fa-box icon"></i> Productos</a></li>
+            <li><a href="${pageContext.request.contextPath}/MostrarProductoServlet"><i class="fas fa-box icon"></i> Productos</a></li>
             <li><a href="categorias.jsp"><i class="fas fa-list"></i> Categorías</a></li>
             <li><a href="reservas.jsp"><i class="fas fa-bookmark"></i> Reservas</a></li> 
             <li><a href="about_us.jsp"><i class="fas fa-info-circle"></i> Sobre nosotros</a></li>

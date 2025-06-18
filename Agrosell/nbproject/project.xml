@@ -18,18 +18,14 @@
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
-<<<<<<< HEAD
                     <file>${&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD}</file>
                 </library>
                 <library dirs="200">
-                    <file>${file.reference.mysql-connector-j-9.3.0.jar-1}</file>
-=======
-                    <file>${file.reference.jbcrypt-0.4.jar-1}</file>
+                    <file>${file.reference.mysql-connector-j-9.3.0.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
-                    <file>${file.reference.mysql-connector-j-9.3.0.jar}</file>
->>>>>>> 6d58de61dfc45cf82756faf295d84bd1f6ab2c66
+                    <file>${file.reference.jbcrypt-0.4.jar-1}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
             </web-module-libraries>

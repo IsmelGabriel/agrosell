@@ -73,7 +73,7 @@
                 <div id="total-carrito" class="total-carrito">
                     <p>Total: $0</p>
                 </div>
-                <a href="formularios/formulario_pago.jsp" class="boton-pago">Realizar pago</a>
+                <a href="../formularios/formulario_pago.jsp" class="boton-pago">Realizar pago</a>
             </div>
         </section>
     </main>

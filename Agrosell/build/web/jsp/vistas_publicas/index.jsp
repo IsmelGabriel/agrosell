@@ -64,7 +64,7 @@
                     </div>
 
                     <div class="actions-buttons mt-3">
-                        <a href="../formulario/recuperar_contraseña.jsp" class="btn btn-link text-success">¿Olvidaste tu contraseña?</a>
+                        <a href="../formularios/recuperar_contraseña.jsp" class="btn btn-link text-success">¿Olvidaste tu contraseña?</a>
                         <a href="registrarse.jsp" class="btn btn-link text-success">¿No tienes cuenta? Regístrate</a>
                     </div>
                 </form>

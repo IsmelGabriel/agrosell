@@ -1,17 +1,31 @@
-<%-- 
-    Document   : reseña_exitosa
-    Created on : 17/06/2025, 7:47:09 p. m.
-    Author     : Karol
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+<%
+    String usuario = (String) session.getAttribute("usuario");
+    String rol = (String) session.getAttribute("rol");
+%>
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseña Exitosa</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body class="page-exitoso">
+    <div class="exito-container">
+        <h1 class="msj-exitoso">¡Reseña exitosa!</h1>
+        <p>Su reseña se ha enviado correctamente.</p>
+        <a href="about_us.jsp" class="btn-exitoso">Volver</a>
+    </div>
+
+    <div class="usuario-info">
+        <span class="username">
+            <% if (usuario != null) { %>
+                <a href="cerrar_sesion.jsp"><%= usuario %></a>
+            <% } else { %>
+                <a href="index.jsp">Iniciar sesión</a>
+            <% } %>
+        </span>
+    </div>
+</body>
 </html>

@@ -35,7 +35,7 @@ public class RegistrarUsuarioServlet extends HttpServlet {
                 // Usuario o correo ya registrado
                 response.sendRedirect("jsp/vistas_publicas/registro_fallido.jsp");
             } else {
-                // Encriptar contraseña
+                // Encripta_contraseña
                 String contraseñaEncriptada = BCrypt.hashpw(contraseña, BCrypt.gensalt());
 
                 Usuario nuevoUsuario = new Usuario();

@@ -10,7 +10,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import org.mindrot.jbcrypt.BCrypt;
-import util.Conexion; // Asegúrate de tener esta clase
+import util.Conexion; 
 
 @WebServlet("/IniciarSesionServlet")
 public class IniciarSesionServlet extends HttpServlet {
@@ -34,7 +34,7 @@ public class IniciarSesionServlet extends HttpServlet {
                                 HttpSession session = request.getSession();
                                 session.setAttribute("usuario", usuario);
                                 session.setAttribute("rol", rol);
-                                response.sendRedirect("jsp/vistas_publicas/inicio.jsp"); // ajusta según la vista real
+                                response.sendRedirect("jsp/vistas_publicas/inicio.jsp"); 
                             } else {
                                 redireccionarConError(response, "Contraseña incorrecta.");
                             }

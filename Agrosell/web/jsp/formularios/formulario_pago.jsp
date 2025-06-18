@@ -51,13 +51,13 @@
     
     <nav class="menu-bar">
         <ul>
-            <li><a href="../inicio.jsp"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="../vistas_publicas/inicio.jsp"><i class="fas fa-home"></i> Inicio</a></li>
             <li><a href="${pageContext.request.contextPath}/MostrarProductoServlet"><i class="fas fa-box icon"></i> Productos</a></li>
-            <li><a href="../categorias.jsp"><i class="fas fa-list"></i> Categorías</a></li>
-            <li><a href="../reservas.jsp"><i class="fas fa-bookmark"></i> Reservas</a></li>
-            <li><a href="../about_us.jsp"><i class="fas fa-info-circle"></i> Sobre nosotros</a></li>
-            <li><a href="../contactanos.jsp"><i class="fas fa-envelope"></i> Contáctanos</a></li>
-            <li><a href="../ayuda.jsp"><i class="fas fa-question-circle"></i> Ayuda</a></li>
+            <li><a href="../vistas_publicas/categorias.jsp"><i class="fas fa-list"></i> Categorías</a></li>
+            <li><a href="../vistas_publicas/reservas.jsp"><i class="fas fa-bookmark"></i> Reservas</a></li> 
+            <li><a href="../vistas_publicas/about_us.jsp"><i class="fas fa-info-circle"></i> Sobre nosotros</a></li>
+            <li><a href="../vistas_publicas/contactanos.jsp"><i class="fas fa-envelope"></i> Contáctanos</a></li>
+            <li><a href="../vistas_publicas/ayuda.jsp"><i class="fas fa-question-circle"></i> Ayuda</a></li>
         </ul>
     </nav>
 
@@ -125,14 +125,14 @@
             <div class="footer-column">
                 <h3>Enlaces rápidos</h3>
                 <ul>
-                    <li><a href="../inicio.jsp">Inicio</a></li>
-                    <li><a href="../categorias.jsp">Categorías</a></li>
-                    <li><a href="../contactanos.jsp">Contáctanos</a></li>
-                    <li><a href="../about_us.jsp">Sobre nosotros</a></li>
-                    <li><a href="../mapa.jsp">Mapa del sitio</a></li>
-                    <li><a href="../404.jsp">Error 404</a></li>
-                    <li><a href="../500.jsp">Error 500</a></li>
-                    <li><a href="../dashboard.jsp">Dashboard</a></li>
+                    <li><a href="../vistas_publicas/inicio.jsp">Inicio</a></li>
+                    <li><a href="../vistas_publicas/categorias.jsp">Categorías</a></li>
+                    <li><a href="../vistas_publicas/contactanos.jsp">Contáctanos</a></li>
+                    <li><a href="../vistas_publicas/about_us.jsp">Sobre nosotros</a></li>
+                    <li><a href="../vistas_publicas/mapa.jsp">Mapa del sitio</a></li>
+                    <li><a href="../vistas_publicas/404.jsp">Error 404</a></li>
+                    <li><a href="../vistas_publicas/500.jsp">Error 500</a></li>
+                    <li><a href="../vistas_publicas/dashboard.jsp">Dashboard</a></li>
                 </ul>
             </div>
             <div class="footer-column">
